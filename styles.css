@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    max-width: 900px;
+    display: flex;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.left-module {
+    background-color: rgb(139, 0, 23);
+    width: 250px;
+    padding: 1rem 2rem;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.left-module h1 {
+    color: white;
+    font-size: 12px;
+    margin-bottom: -1rem;
+}
+.left-module li {
+    color: white;
+    font-size: 11px;
+    margin-left: 1rem;
+    margin-bottom: 0px;
+}
+.left-module p {
+    color: white;
+    font-size: 16px;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.left-module ul {
+    list-style-type: none;
+    padding: 0;
+}
+.main-module {
+    flex: 1;
+    padding: 1rem 2rem;
+}
+.main-module h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
