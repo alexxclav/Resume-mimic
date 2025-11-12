@@ -14,25 +14,25 @@ h2 {
 }
 .left-module {
     background-color: rgb(139, 0, 23);
-    width: 250px;
+    width: 280px;
     padding: 1rem 2rem;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
 }
 .left-module h1 {
     color: white;
-    font-size: 12px;
-    margin-bottom: -1rem;
+    font-size: 18px;
+    margin-bottom: -0.75rem;
 }
 .left-module li {
     color: white;
-    font-size: 11px;
+    font-size: 16px;
     margin-left: 1rem;
     margin-bottom: 0px;
 }
 .left-module p {
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 0rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
@@ -43,9 +43,52 @@ h2 {
 }
 .main-module {
     flex: 1;
-    padding: 1rem 2rem;
+    padding: 0 2.5rem;
 }
 .main-module h1 {
-    font-size: 28px;
-    margin-bottom: 10px;
+    font-size: 18px;
+    margin-top: -1rem;
+    margin-bottom: -0.75rem;
+    color: rgb(139, 0, 23);
+}
+.main-module h2 {
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+.main-module span {
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-module h3 {
+    font-size: 15px;
+    margin-bottom: -0.75rem;
+    font-weight: 400;
+    color: gray;
+}
+.main-module p {
+    font-size: 15px;
+    margin-bottom: -0.75rem;
+    color: gray;
+}
+.personal-information h1{
+    font-size: 18px;
+    margin-top: -1rem;
+    margin-bottom: -0.75rem;
+    color: rgb(0, 0, 0);
+}
+.contact-information h1{
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    color: rgb(0, 0, 0);
+}
+.contact-information p{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+hr {
+    border: none;
+    border-top: 3px solid #000000;
+    margin: 2rem 0;
 }
